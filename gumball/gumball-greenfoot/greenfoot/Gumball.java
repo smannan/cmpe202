@@ -13,15 +13,6 @@ public class Gumball extends Actor
     {
         GreenfootImage image = getImage() ;
         image.scale( 50, 50 ) ; 
-        int mouseX, mouseY ;
-        
-        if(Greenfoot.mouseDragged(this))
-        {          
-            MouseInfo mouse = Greenfoot.getMouseInfo();  
-            mouseX=mouse.getX();  
-            mouseY=mouse.getY();  
-            setLocation(mouseX, mouseY);
-        }
     }
 
     public void act() 

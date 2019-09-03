@@ -14,4 +14,5 @@ public class Penny extends Coin
         GreenfootImage image = getImage() ;
         image.scale( 50, 50 ) ;        
     }
+    
 }
