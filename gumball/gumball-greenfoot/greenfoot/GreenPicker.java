@@ -15,5 +15,5 @@ public class GreenPicker extends Picker
     public void act() 
     {
         // Add your action code here.
-    }    
+    }
 }
