@@ -14,5 +14,9 @@ public class Quarter extends Coin
         GreenfootImage image = getImage() ;
         image.scale( 80, 80 ) ;           
     }
-  
+    
+    public boolean isQuarter()
+    {
+        return true;
+    }
 }

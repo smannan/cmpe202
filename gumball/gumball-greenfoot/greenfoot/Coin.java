@@ -13,11 +13,17 @@ public class Coin extends Actor
     {
         int mouseX, mouseY ;
         
-        if(Greenfoot.mouseDragged(this)) {          
+        if(Greenfoot.mouseDragged(this))
+        {
             MouseInfo mouse = Greenfoot.getMouseInfo();  
             mouseX=mouse.getX();  
             mouseY=mouse.getY();  
-            setLocation(mouseX, mouseY);  
-        } 
-    }    
+            setLocation(mouseX, mouseY);
+        }
+    }
+
+    public boolean isQuarter()
+    {
+        return false;
+    }
 }

@@ -30,6 +30,9 @@ public class GumballWorld extends World
         addObject(gumballmachine, 367, 237);
         addObject( new Penny(), 57, 71 ) ;
         addObject( new Quarter(), 68, 156 ) ;
+        addObject( new Quarter(), 68, 156 ) ;
+        addObject( new Quarter(), 68, 156 ) ;
+        addObject( new Quarter(), 68, 156 ) ;
         addObject( new FakeQuarter(), 66, 248 ) ;
 
         Inspector inspector = new Inspector();
